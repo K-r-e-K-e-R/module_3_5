@@ -13,7 +13,7 @@ def get_multiplied_digits(number):
     # Извлечение первой цифры и преобразование её в целое число
     first = int(str_number[0])
 
-    # Рекурсивный метод для оставшихся цифр
+    # Рекурсивный метод
     return first * get_multiplied_digits(int(str_number[1:]))
 
 
